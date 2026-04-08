@@ -1,12 +1,14 @@
 * {
-    background-color: aquamarine;
-    font-weight: 700; 
-    font-size:100px;
+    background-color: #89abea;
+    background-color:aliceblue;
+    
+
 
 }
 
 h1 {
-   color:brown;
+   color:rgb(230, 93, 93);
+   font-size: 3rem;
    
    
 
@@ -14,6 +16,27 @@ h1 {
 
 a{
     background-color:beige
+
 }
 
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-between;
+    margin-left:5rem;
+    margin-right:5rem;
+}
 
+#recipes{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    font-size:1rem;
+}
+
+img{
+    width:7rem;
+    height:auto;
+}
