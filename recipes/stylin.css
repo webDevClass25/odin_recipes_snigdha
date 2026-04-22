@@ -1,0 +1,40 @@
+*{ 
+    background-color: rgb(218, 191, 128);
+    font-size: 1.5rem;
+} 
+
+#description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+#ingredients{ 
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
+
+}
+
+#process{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#description>h2{
+    color: blue;
+}
+
+#ingredients>h2{
+    color: blue;
+}
