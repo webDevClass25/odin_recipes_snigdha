@@ -4,19 +4,12 @@
 } 
 
 #description{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     
     
 }
 
 #ingredients{ 
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+     
     
     
     
@@ -24,11 +17,17 @@
 }
 
 #process{
-     display: flex;
+    
+   
+    
+}
+
+.elements-of-recipe{
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+
 }
 
 #description>h2{
@@ -37,4 +36,8 @@
 
 #ingredients>h2{
     color: blue;
+}
+#description>img{
+    width: 15rem;
+    height: auto;
 }
